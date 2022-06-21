@@ -1,5 +1,5 @@
-.header{
-    padding: 20px;
+.cabecalho{
+    padding: 20px !important;
     background-color: rgb(32, 32, 32);
     height: 90px;
 }
@@ -13,15 +13,44 @@ img.navbar-brand {
 
 }
 
-form{
-    margin-top: -19px;
-    margin-left: 200px;
+i.bi-search{
+    font-size:large;
+    color:  rgb(253, 59, 45);
+}
+/* botão de pesquisa*/
+
+button.btn-outline-success{
+    border-color: transparent;
+}
+button.btn-outline-success:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+button.btn-outline-success:hover i{
+
+    color: aliceblue;
 }
 
-i {
+.main{
+    background-color: rgb(19, 19, 19) !important;
+}
+
+main h1{
     color: rgb(253, 59, 45);
-    width: 120px;
-    margin-bottom: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+div.card-corpo{
+ background-color: rgb(17, 17, 17);
+ color: aliceblue;
+ border-color: transparent;
+}
+
+i.redes {
+    color:  rgb(253, 59, 45);
+    font-size: 2rem;
+    margin: 15px;
 }
 
 .footer_area{

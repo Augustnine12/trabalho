@@ -45,7 +45,7 @@ const mostarFilmes = (data) =>{
     for (let i = 0; i < 12; i++) {
         let filme = dados.results[i];
         dadosHTML += `
-        <div class="col-4">
+        <div class="col-lg-4 col-md-6 col-sm-12-">
             <img src="https://image.tmdb.org/t/p/w500${filme.poster_path}" class="card-img-top" alt="Filme XPTO">
             <div class="card-body">
                 <h5 class="card-title">${filme.title}</h5>
