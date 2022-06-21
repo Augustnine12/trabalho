@@ -7,7 +7,7 @@ $(document).ready(function () {
       // Passar a URL ENDPOINT BASE + /movie/now_playing
       url: TMDB_ENDPOINT_BASE + "/search/movie",
       data: {
-        api_key: "c2f4c89b537808c194cac27dae3a091e",
+        api_key: "61f5c23ac107c76ebf930a870d63113c",
         query: sessionStorage.getItem("item"),
       },
     })
@@ -40,7 +40,7 @@ $(document).ready(function () {
         }
         // Repassar os cards para a página
         $("#pes").html(codigo_html);
-        sessionStorage.setItem("item", "");
+        sessionStorage.setItem("item", "&language=pt-BR");
       });
   }
 

@@ -49,7 +49,7 @@ const mostarFilmes = (data) =>{
             <img src="https://image.tmdb.org/t/p/w500${filme.poster_path}" class="card-img-top" alt="Filme XPTO">
             <div class="card-body">
                 <h5 class="card-title">${filme.title}</h5>
-                <p class="card-text">${filme.overview}</p>
+                <p class="card-text">Avalição: ${filme.vote_average}</p>
                 <p class="avaliacao">Estreia: ${filme.release_date}</p>
                 <a href="detalheFilme.html?id=${filme.id}" class="btn btn-primary botao">Veja mais...</a>
             </div>
